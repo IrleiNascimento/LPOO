@@ -1,6 +1,4 @@
 package DaO;
-
-
 import java.util.Objects;
 import javax.mail.Address;
 
