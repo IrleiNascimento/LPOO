@@ -1,12 +1,12 @@
 package DaO;
 import java.util.Objects;
 import javax.mail.Address;
-
 /**
  *
  * @author Irlei
  */
-public class Pessoa  extends Address{
+public class Pessoa  extends Address{ /* extendendo a classe Address do pacote javax.mail 
+ * um objeto da classe Pessoa podera ser passada como destinatário*/
 
     private String nome;
     private String email;
@@ -34,8 +34,8 @@ public class Pessoa  extends Address{
     }
 
     @Override
-    public String toString() {
-        return this.nome;
+    public String toString(){
+        return "Nome: "+this.nome +"Email:"+this.email;
     }
 
     @Override

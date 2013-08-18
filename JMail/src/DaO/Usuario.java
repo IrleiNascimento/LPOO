@@ -3,7 +3,8 @@ package DaO;
  *
  * @author Irlei
  */
-public class Usuario extends Pessoa {
+public class Usuario extends Pessoa { /*Como o Usuário precisa de nome e 
+ * email e a classe Pessoa ja os possui basta herdar*/
 
     private String senha;
 

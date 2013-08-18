@@ -5,7 +5,7 @@ package DaO;
  */
 public class Contato extends Pessoa{
    
-    private int categoria;    
+    private int categoria;   // será definido como constante futuramente
     
     public Contato() {
     }
@@ -29,7 +29,8 @@ public class Contato extends Pessoa{
     
     
     @Override
-    public String toString() {
+    public String toString() { /*Contato extende Pessoa portanto ele tambem é um Address 
+     sendo assim vamos sobreescrever o toString, porque o que interessa no contato é o email*/
         return this.getEmail();
     }
     
