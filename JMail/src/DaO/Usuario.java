@@ -17,7 +17,7 @@ public class Usuario extends Pessoa {
         return senha;
     }
 
-    public void setSenha(String senhal) {
-        this.senha = senhal;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }    
 }
