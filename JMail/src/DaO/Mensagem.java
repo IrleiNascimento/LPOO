@@ -9,9 +9,9 @@ public class Mensagem {
 
     private String assunto;
     private String conteudo;
-    private List<Anexo> anexos;
+    private List<Anexo> anexos;// a mensagem pode ter varios anexos
     private Pessoa remetente;
-    private List<Contato>destinatarios;  
+    private List<Contato>destinatarios;  // a mensagem pode ter varios destinatários
     private boolean anexo;
     
     public Mensagem() {
