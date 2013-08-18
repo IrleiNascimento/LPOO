@@ -64,7 +64,7 @@ public class Pessoa  extends Address{ /* extendendo a classe Address do pacote j
     }
 
     @Override
-    public String getType() {
+    public String getType() {  // asinatura de metodo da classe Address, por enquanto não precisaremos dele 
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
