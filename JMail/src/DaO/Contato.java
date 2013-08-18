@@ -1,5 +1,8 @@
 package DaO;
-
+/**
+ *
+ * @author Irlei
+ */
 public class Contato extends Pessoa{
    
     private int categoria;    

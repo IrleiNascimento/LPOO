@@ -2,7 +2,10 @@ package DaO;
 
 import java.util.Objects;
 
-
+/**
+ *
+ * @author Irlei
+ */
 public class Anexo {
     
     private String nomeDoArquivo;

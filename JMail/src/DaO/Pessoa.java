@@ -4,7 +4,10 @@ package DaO;
 import java.util.Objects;
 import javax.mail.Address;
 
-
+/**
+ *
+ * @author Irlei
+ */
 public class Pessoa  extends Address{
 
     private String nome;

@@ -1,6 +1,9 @@
+
 package DaO;
-
-
+/**
+ *
+ * @author Irlei
+ */
 public class Usuario extends Pessoa {
 
     private String senha;

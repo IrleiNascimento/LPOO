@@ -2,7 +2,10 @@ package DaO;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ *
+ * @author Irlei
+ */
 public class Mensagem {
 
     private String assunto;
