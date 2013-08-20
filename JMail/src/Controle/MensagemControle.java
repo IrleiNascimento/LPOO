@@ -41,7 +41,7 @@ public class MensagemControle {
     
     
     /*Pensaremos nesses métodos quando a parte grafica for criada*/
-    public void excluir(Mensagem msg) {  }    
+    public void excluir() {  }    
     public void editar(Mensagem msg) {  }
     public void salvar(Mensagem msg) {  }
 }
