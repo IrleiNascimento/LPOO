@@ -1,7 +1,6 @@
 package Controle;
 
 import DaO.Anexo;
-import java.util.Iterator;
 import java.util.List;
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
