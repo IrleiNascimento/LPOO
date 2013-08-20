@@ -101,5 +101,5 @@ public class UsuarioControle {
     }   
     
     public void carregarHistoricoDoUsuario() { }/*dados do usuário que estarão armazenados em arquivos.
-     Pensaremos nela mais tarde*/
+     Pensaremos nele mais tarde*/
 }

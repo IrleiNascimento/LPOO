@@ -33,12 +33,10 @@ public class AnexoControle {
 
     /*Esse metodo irá empacontar todos os anexos aqui é utilizado o PADRÃO COMPOSITE
      As informaçãoes do anexo é colocada em  MimeBodyPart e esse por sua vez é colocado em Multipart que é o "envelope da mensagem"*/
-    public void anexarArquivo(Multipart mp, List<Anexo> anexo) throws MessagingException {
-        
-        MimeBodyPart[] mbp = new MimeBodyPart[anexo.size()];
-        Iterator it = anexo.iterator();
+    public void anexarArquivo(Multipart mp, List<Anexo> anexo) throws MessagingException {        
+        MimeBodyPart[] mbp = new MimeBodyPart[anexo.size()];       
         int i = 0;
-        for(Anexo anx : anexo){                     
+        for(Anexo anx : anexo){     // forEach    for otimizado para iterar com List e Colletions                
                 mbp[i] = new MimeBodyPart();
                 DataSource caminhoDoArquivo = new FileDataSource(anx.getLocalDoArquivo()); // caminho do arquivo
                 mbp[i].setDataHandler(new DataHandler(caminhoDoArquivo));

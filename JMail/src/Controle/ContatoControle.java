@@ -31,12 +31,9 @@ public class ContatoControle  { /*A principio, não precisaremos dessa classe pa
         this.contatos = contato;
     }
     
-    public void remover() { }   
     
-
-    public void editar() { }    
-    
-
+    public void remover() { } 
+    public void editar() { } 
     public void salvar(Contato contato) { }    
   
 
