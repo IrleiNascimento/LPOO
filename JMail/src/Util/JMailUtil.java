@@ -14,8 +14,7 @@ import javax.swing.JOptionPane;
  *
  * @author Irlei
  */
-public class JMailUtil {
-    
+public class JMailUtil {    
     //Apenas para não precisar fiacr fazendo Cast a todo momento e ficar importando a classe Object
     public  static Contato [] getArrayDestinatarios(List contato) {
         Contato[] destin = new Contato[contato.size()];
