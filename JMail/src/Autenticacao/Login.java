@@ -10,7 +10,7 @@ public final class Login {
     
     private Sessao sessao;
     
-    /*O UsuarioControle  que chegar como paramentro tem apenas o Usuário instaniado, logo apos validação do seu email
+    /*O UsuarioControle  que chegar como paramentro tem apenas o Usuário instanciado, logo apos validação do seu email
      todos os outros atributos receberão instancias A mai importante delas é a Session  que carrega comsigo todas as propriedade
      do PROVEDOR  de email   como  protocolo,  socket  porta   etc. Sem ela jamais poderiamos enviar o email */
     public Login(UsuarioControle usuarioControle) {  
