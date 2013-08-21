@@ -41,6 +41,7 @@ public class AnexoControle {
                 mbp[i].setDataHandler(new DataHandler(caminhoDoArquivo));
                 mbp[i].setFileName(anx.getNomeDoArquivo());
                 mbp[i].setDisposition(Part.ATTACHMENT);
+                
                 mp.addBodyPart(mbp[i]);
                 i++;
             

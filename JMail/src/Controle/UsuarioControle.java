@@ -4,6 +4,7 @@
  */
 package Controle;
 
+import Autenticacao.Login;
 import DaO.Usuario;
 import java.util.Date;
 import javax.mail.*;
@@ -99,6 +100,12 @@ public class UsuarioControle {
            System.out.println(e.getMessage());
         }   
     }   
+    
+    
+       public void logar(){
+        if(this != null)
+    new Login(this);
+    }
     
     public void carregarHistoricoDoUsuario() { }/*dados do usuário que estarão armazenados em arquivos.
      Pensaremos nele mais tarde*/
