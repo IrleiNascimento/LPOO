@@ -16,6 +16,7 @@ import javax.swing.JOptionPane;
  */
 public class JMailUtil {
     
+    //Apenas para não precisar fiacr fazendo Cast a todo momento e ficar importando a classe Object
     public  static Contato [] getArrayDestinatarios(List contato) {
         Contato[] destin = new Contato[contato.size()];
         Iterator it = contato.iterator();
@@ -27,6 +28,7 @@ public class JMailUtil {
         return destin;
     }   
     
+    //verifica apenas a terminação do email
        public static boolean validarEmail(Usuario usuario) {
         if (usuario.getEmail().contains("@hotmail.com") || usuario.getEmail().contains("@gmail.com")) {
             
