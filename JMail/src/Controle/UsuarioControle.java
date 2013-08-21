@@ -92,7 +92,7 @@ public class UsuarioControle {
     
     public void enviarMensagem() {
         boolean envio = false;
-        this.getSessao().setDebug(true);
+        this.getSessao().setDebug(true); /*Muito importante, pois é atreves  dele que acompanharemos o processo de envio  pelo terminal  da IDE*/
         try {
             Transport.send(this.preparaMensagem());               
         } catch (MessagingException e) {
